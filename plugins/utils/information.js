@@ -18,7 +18,7 @@ export default {
       const totalMem = formatMB(os.totalmem());
 
       const readMore = String.fromCharCode(8206).repeat(4001);
-      const url = 'https://github.com/lunairaai/whatsapp-bot-base';
+      const url = 'https://github.com/lunairaa/Lunaira-base';
       const preview = await getLinkPreview(url);
 
       const messageText = `👋 Selamat datang di *${config.namabot}*
