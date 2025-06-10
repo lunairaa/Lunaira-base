@@ -1,0 +1,23 @@
+{
+  "name": "lunaira-base",
+  "version": "1.0.0",
+  "description": "Lunaira WhatsApp Base",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ojiwzrd",
+  "license": "MIT",
+  "dependencies": {
+    "@keyv/serialize": "^1.0.3",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "awesome-phonenumber": "^2.70.0",
+    "axios": "^1.9.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.5.0",
+    "link-preview-js": "^3.1.0",
+    "lunaira-api": "^1.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
